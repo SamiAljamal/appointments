@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Book Appointments with Brett</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Book an Appointment with Brett!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="date">Appointment Date</label>
+            <input id="date" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="start">Appointment Start Time</label>
+            <input id="start" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="end">Appointment End Time</label>
+            <input id="end" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Make Appointment!</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="confirmation">
+      <h2>Confirmation of Appointment:</h2>
+      <h4><span class = "name"></span> on <span class = "date"></span> at <span class = "start"></span> to <span class = "end"></span>.</h4>
+      <h3>See you then!</h3>
+    </div>
+  </body>
+</html>
